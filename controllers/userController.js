@@ -17,8 +17,12 @@ async function index(req, res) {
 
 async function show(req, res) {
   try {
-      const userInfo = await db.User.findById(req.params.userid);
-      res.json(userInfo);
+      const userInfo = await db.User.findById(req.params.userid)
+        .populate('cartItems')
+        .exec((err, foundUser) => {
+          res.json(foundUser);
+        });
+      
   } catch(err) {
       handleError(res, err);
   }

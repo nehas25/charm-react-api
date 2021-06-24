@@ -16,4 +16,5 @@ mongoose.connect(connectionString, configOptions)
 module.exports = {
   Dress: require('./Dress'),
   User: require('./User'),
+  Account: require('./Account'),
 };

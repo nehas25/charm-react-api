@@ -1,6 +1,23 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const BagItem = new Schema({
+  productId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Product',
+    required: true
+  },
+  size: {
+    type: String,
+    required: true
+  },
+  quantity: {
+    type: Number,
+    required: true,
+    default: 0
+  }
+});
+
 const AccountSchema = new Schema({
   username: {
     type: String,
@@ -13,8 +30,9 @@ const AccountSchema = new Schema({
   },
   email: {
     type: String,
-    required: true
+    // required: true
   },
+  bag: [BagItem]
 });
 
 const Account = mongoose.model('Account', AccountSchema);

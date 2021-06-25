@@ -105,8 +105,22 @@ const verify = async (req, res) => {
   }
 }
 
+async function index(req, res) {
+    try {
+        await db.Account.find({})
+          .populate('bag')
+          .exec((err, allUsers) => {
+            res.status(200).json(allUsers);
+        });
+        
+    } catch(err) {
+        handleError(res, err);
+    }
+}
+
 module.exports = {
   create,
   login,
   verify,
+  index,
 };

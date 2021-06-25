@@ -1,7 +1,8 @@
 const express = require('express');
 const cors = require('cors');
-const routes = require('./routes');
 require('dotenv').config();
+const routes = require('./routes');
+const verify = require('./middleware/verify');
 
 const port = process.env.PORT || 4000;
 const app = express();
@@ -14,9 +15,12 @@ app.use(cors());
 app.use(express.json());
 
 // middleware - API routes
+app.use('/api/v1/products', routes.products);
 app.use('/api/v1/dresses', routes.dresses);
-app.use('/api/v1/users', routes.users);
+// app.use('/api/v1/users', routes.users);
 app.use('/api/v1/accounts', routes.accounts);
+app.use('/api/v1/bagItems', routes.bagItems);
+
 
 // listen
 app.listen(port, () => console.log(`Server is running on port ${port}`));

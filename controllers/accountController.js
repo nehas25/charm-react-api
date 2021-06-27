@@ -10,7 +10,7 @@ const create = async (req, res) => {
   const { username, password, email } = req.body;
 
   // Check if all credentials are present
-  if(!username || !password || !email) {
+  if(!username || !password ) {
     return res.status(400).json({ status: 400, message: 'All fields are required'})
   }
 
@@ -46,7 +46,7 @@ const login = async (req, res) => {
 
   try {
     // Find user by username
-    const foundUser = await db.User.findOne({username});
+    const foundUser = await db.Account.findOne({username});
 
     // Check if username exists
     if(!foundUser) {

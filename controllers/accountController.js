@@ -118,9 +118,21 @@ async function index(req, res) {
     }
 }
 
+async function deleteByUsername(req, res) {
+  try {
+    const deletedAccount = await db.Account.findOneAndDelete({
+      username: req.params.username
+    });
+    res.status(200).json(deletedAccount);
+  } catch(err) {
+    handleError(res, err);
+}
+}
+
 module.exports = {
   create,
   login,
   verify,
   index,
+  deleteByUsername,
 };

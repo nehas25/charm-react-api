@@ -15,8 +15,5 @@ mongoose.connect(connectionString, configOptions)
 
 module.exports = {
   Product: require('./Product'),
-  // User: require('./User'),
   Account: require('./Account'),
-  // Bag: require('./Bag'),
-  // BagItem: require('./BagItem'),
 };

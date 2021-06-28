@@ -3,4 +3,5 @@ module.exports = {
   accounts: require('./accountRoutes'),
   bagItems: require('./bagItemRoutes'),
   products: require('./productRoutes'),
+  setup: require('./setupdbRoutes'),
 };

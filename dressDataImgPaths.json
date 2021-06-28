@@ -1,0 +1,181 @@
+{
+  "dresses": [
+      {
+          "name": "Along The Way Ribbed Mini Dress - Black",
+          "description": "Nights out with the girls, dancing till sunrise...",
+          "price": 220,
+          "imgUrls": [
+              "DSC09962_1024x.jpg",
+              "DSC09960_1024x.jpg",
+              "DSC09996_1024x.jpg",
+              "DSC09973_81a6dce6-ae9e-4c09-817e-6eb3f5cbb49d_1024x.jpg",
+              "DSC09997_1024x.jpg",
+              "DSC09974_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "L.A Sunsets Tie Back Bias Cut Midi Dress - Nude",
+          "description": "Ready for drinks with the girls? This bias cut midi fits in all the right places...",
+          "price": 280,
+          "imgUrls": [
+            "IMG_2688_14e7291f-9a60-421f-9ef4-fa32a9e9f91f_1024x.jpg",
+            "DSC00916_62d2aed1-5485-4122-83f5-94973ffad7f5_1024x.jpg",
+            "DSC00892_457716c0-0fc6-4735-a427-042e474d20da_1024x.jpg",
+            "DSC00917_1024x.jpg"
+          ],
+          "size": ["S", "M", "L", "XL"],
+          "type": "Dress"
+      },
+      {
+          "name": "Music With Heart Bias Cut Mini Dress - Floral",
+          "description": "Days off, brunching with the girls & exploring vintage stores...",
+          "price": 338,
+          "imgUrls": [
+              "DSC00863_757099d1-0184-403c-8315-d5ba4e8a5ae8_1024x.jpg",
+              "DSC00882_bbe9381d-6224-4f27-b2fc-1ade689bc1c6_1024x.jpg",
+              "DSC00848_1024x.jpg",
+              "DSC00828_d3a8d330-6b8f-40d5-8fb9-60bf0e8f0520_1024x.jpg",
+              "DSC00877_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "True Art Bias Cut Mini Dress - Magenta",
+          "description": "Spontaneous date nights call for the perfect mini slip dress... Also available in Tan & Olive.",
+          "price": 125,
+          "imgUrls": [
+              "DSC00930_1024x.jpg",
+              "DSC00916_1024x.jpg",
+              "DSC00899_23678953-0795-45fc-9361-dc2c1618ddb0_1024x.jpg",
+              "DSC00900_1024x.jpg",
+              "DSC00920_1024x.jpg",
+              "DSC00931_94b85d3b-a67c-47d2-9bb0-9b5ec0cf9fa6_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Behind The Scenes Ribbed Knit Mini Dress - Khaki",
+          "description": "The dress that will flatter you in every way! Effortless and stylish, what more could you want?",
+          "price": 125,
+          "imgUrls": [
+              "DSC04894_1024x.jpg",
+              "DSC04874_1024x.jpg",
+              "DSC04846_1024x.jpg",
+              "DSC04862_1024x.jpg",
+              "DSC04863_1024x.jpg",
+              "DSC04881_1024x.jpg"
+          ],
+          "size": ["XS", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Season Edit Bias Cut Midi Dress - Floral",
+          "description": "Dreaming of springtime picnics & this midi dress...",
+          "price": 234,
+          "imgUrls": [
+              "DSC00268_1024x.jpg",
+              "DSC00234_1024x.jpg",
+              "DSC002802_1024x.jpg",
+              "DSC00260_1024x.jpg",
+              "DSC00241_1024x.jpg",
+              "DSC00283_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Night Magic Midi Dress - Sage",
+          "description": "Dreaming of afternoons sipping wine, watching the sunset...",
+          "price": 320,
+          "imgUrls": [
+              "DSC00782_1ff30af5-86e4-4e32-ad5a-60756088a84c_1024x.jpg",
+              "DSC00818_bcfe9bc4-aa24-449c-8984-c9f1ca7585b8_1024x.jpg",
+              "DSC00818_bcfe9bc4-aa24-449c-8984-c9f1ca7585b8_1024x.jpg",
+              "DSC00800_81f0ca35-a1b6-4077-912a-e3b773c65da8_1024x.jpg",
+              "DSC00787_1024x.jpg",
+              "DSC00801_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Sweet Life Ribbed Knit Mini Dress - Black",
+          "description": "It's all in the details! This ribbed knit midi doesn't lack in wow factor... The open back and cut out detailing will have you feeling like a 10!            ",
+          "price": 210,
+          "imgUrls": [
+              "DSC05940_1024x.jpg",
+              "DSC05921_1024x.jpg",
+              "DSC05912_1024x.jpg",
+              "DSC059152_1024x.jpg",
+              "DSC05935_1024x.jpg",
+              "DSC05928_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Caught Up With Her Mesh Mini Dress - Burgundy",
+          "description": "Slinky & eye catching - this dress ticks all the boxes for a flirty night out. Also available in Tan.",
+          "price": 310,
+          "imgUrls": [
+              "DSC00257_1024x.jpg",
+              "IMG_2127_1024x.jpg",
+              "DSC00243_1024x.jpg",
+              "DSC00252_b421d42f-9205-4540-8b88-b618e8abc796_1024x.jpg",
+              "IMG_2133_1024x.jpg",
+              "DSC00259_da2e2ba7-895e-4c79-b8d6-ae8d9ac08a1c_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Wine At Sunset Bias Cut Midi Dress - Floral",
+          "description": "Clip up your hair, put on your fave lipstick & reach for this midi for those last minute wines with the girls... Also available in Lilac, Zebra, Sage & Black.",
+          "price": 320,
+          "imgUrls": [
+              "VRGGRLWineAtSunsetBiasCutMidiDress_Floral1_1024x.jpg",
+              "DSC01669-158_1024x.jpg",
+              "DSC01639-151_1024x.jpg",
+              "DSC01609-147_1024x.jpg",
+              "DSC01592-145_1024x.jpg",
+              "DSC01672-159_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "Long Nights Mesh Mini Dress - Leopard",
+          "description": "Total Kendall vibes! Your next night out is looking very good... Please note garments worn underneath are not included.",
+          "price": 440,
+          "imgUrls": [
+              "DSC04084-200_1024x.jpg",
+              "DSC04057-197_1024x.jpg",
+              "DSC04059_1024x.jpg",
+              "DSC04031-196_9a1b5620-52d2-4c6b-bc6a-8893d5a249af_1024x.jpg",
+              "DSC04060_a42ed418-3343-44fc-9af5-f20ac059e5f8_1024x.jpg",
+              "DSC04065-198_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      },
+      {
+          "name": "A New Chapter Halter Midi Dress - Sage",
+          "description": "Cocktail hour is calling...",
+          "price": 250,
+          "imgUrls": [
+              "DSC00727_703d3b74-a15f-4aae-b5b7-fa1fe088655c_1024x.jpg",
+              "DSC00769_99fd8ccc-9fb4-4729-83bf-71e74e56f9b2_1024x.jpg",
+              "DSC00746_1024x.jpg",
+              "DSC00728_5be52eb8-ae49-48f2-9abc-89536abc727b_1024x.jpg",
+              "DSC00765_71c4c78e-6f0d-4ca3-8f60-a88cecdf1408_1024x.jpg",
+              "DSC00753_d82dad58-39b2-4bfb-b315-ac9d88306276_1024x.jpg"
+          ],
+          "size": ["S", "M", "L"],
+          "type": "Dress"
+      }
+  ]
+}

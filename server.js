@@ -19,6 +19,7 @@ app.use('/api/v1/products', routes.products);
 app.use('/api/v1/dresses', routes.dresses);
 app.use('/api/v1/accounts', routes.accounts);
 app.use('/api/v1/bagItems', routes.bagItems);
+app.use('/api/v1/setup', routes.setup);
 
 
 // listen

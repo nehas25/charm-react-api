@@ -3,4 +3,5 @@ module.exports = {
   accounts: require('./accountController'),
   bagItems: require('./bagItemController'),
   products: require('./productController'),
+  setup: require('./setupdbController'),
 };
